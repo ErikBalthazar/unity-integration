@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name = "my-unity-test-app"
+include ':unityLibrary'
+project(':unityLibrary').projectDir=new File('..\\..\\..\\bla\\androidBuild\\unityLibrary')
